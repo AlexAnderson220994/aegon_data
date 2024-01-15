@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Vehicles' Claims and Fraud Report and Dashboard</title>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+        <link href="styles.css" rel="stylesheet" />
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="sb-nav-fixed">
+        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+            <!-- Sidebar Toggle-->
+            <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+            <!-- Navbar Brand-->
+            <a class="navbar-brand ps-3" href="index.html"><b>THIS IS SPARTA</b></a>
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                            <div class="sb-sidenav-menu-heading">Homepage</div>
+                            <a class="nav-link" href="index.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Interactive Dashboard
+                            </a>
+                            <div class="sb-sidenav-menu-heading">MVP Expansion</div>
+                            <a class="nav-link" href="jpynb_report.html" target="_blank">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Dashboard Jupyter Notebook Report
+                            </a>
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Fraud Claims ML App 
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <!-- <a class="nav-link" href="https://carinsurance-zrszsrofv9bxm6wjche2a8.streamlit.app/" target="_blank">Open here</a> -->
+                                    <a class="nav-link" href="https://carinsurance-zrszsrofv9bxm6wjche2a8.streamlit.app/" target="_blank">
+                                        <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                        Web App
+                                    </a>
+                                    <a class="nav-link" href="https://carinsurance-zrszsrofv9bxm6wjche2a8.streamlit.app/" target="_blank">
+                                        <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                        ML Jupyter Notebook Report
+                                    </a>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                    <br>
+                    <iframe title="Aegon PowerBi" width="1400" height="670" src="https://app.powerbi.com/reportEmbed?reportId=eea6b8f6-044f-4d07-b577-1966bfc71b1b&autoAuth=true&ctid=ff15c67c-2870-4e9f-adc1-7d61d855b667" frameborder="0" allowFullScreen="true"></iframe>
+                    <div class="container-fluid px-4">
+                        <h1 class="mt-4" style="color: #1F2C8F;text-align:left;"><b>MEET THE TEAM</b></h1>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item active">Profiles</li>
+                        </ol>
+                        <div class="row">
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card bg-primary text-white mb-4">
+                                    <div class="card-body"><b>Oluwatobiloba Odunuga</b><br>Scrum Master</div>
+                                    <img src="https://media.licdn.com/dms/image/D4D03AQF4x51VHj10Aw/profile-displayphoto-shrink_800_800/0/1695998969128?e=1710374400&v=beta&t=V6GCWsJlMtBKjYrIO9ppEBZr0ItC80NP78V0fD3y_fk" alt="PFP">
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <img width="30" height="30" src="https://img.icons8.com/badges/48/linkedin.png" alt="linkedin"/>
+                                        <a class="small text-white stretched-link" href="https://www.linkedin.com/in/tobi-odunuga/" target="_blank">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card bg-warning text-white mb-4">
+                                    <div class="card-body"><b>Alexander Anderson</b><br>DevOps</div>
+                                    <img src="https://media.licdn.com/dms/image/D4E03AQE0ox2C-8UUPQ/profile-displayphoto-shrink_800_800/0/1698049177615?e=1710374400&v=beta&t=2-yZKZlugiSNTGbmEPvHQJs2XyEZyyM8smILEoIE96k" alt="PFP">
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <img width="30" height="30" src="https://img.icons8.com/badges/48/linkedin.png" alt="linkedin"/>
+                                        <a class="small text-white stretched-link" href="https://www.linkedin.com/in/alexander-tj-anderson/" target="_blank">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card bg-secondary text-white mb-4">
+                                    <div class="card-body"><b>Peter Scaife</b><br>Data Engineer</div>
+                                    <img src="https://media.licdn.com/dms/image/D4E35AQEmuOniTBWEwg/profile-framedphoto-shrink_800_800/0/1682083883526?e=1705622400&v=beta&t=cX_UJ6QYjNCWgZrNBfQ85yeI-1MIev1-SKK100onMhA" alt="PFP">
+                                    <!-- <img src="peterpfp.jpg" alt="PFP" width="290" height="290"> -->
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <img width="30" height="30" src="https://img.icons8.com/badges/48/linkedin.png" alt="linkedin"/>
+                                        <a class="small text-white stretched-link" href="https://www.linkedin.com/in/peter-scaife-data-scientist/" target="_blank">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card bg-success text-white mb-4">
+                                    <div class="card-body"><b>Killian Hughes</b><br>Data Engineer</div>
+                                    <img src="https://media.licdn.com/dms/image/C5603AQGEWIsQFap6dg/profile-displayphoto-shrink_800_800/0/1632170721669?e=1710374400&v=beta&t=2k7kFU2HIND7sMkfo7ZgingfLUPfWiHI4il-FyFyFdk" alt="PFP">
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <img width="30" height="30" src="https://img.icons8.com/badges/48/linkedin.png" alt="linkedin"/>
+                                        <a class="small text-white stretched-link" href="https://www.linkedin.com/in/killian-hughes-489059221/" target="_blank">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card bg-info text-white mb-4">
+                                    <div class="card-body"><b>Lauren Gorst</b><br>Data Engineer</div>
+                                    <img src="https://media.licdn.com/dms/image/D4E03AQG1UIibbF-2Kw/profile-displayphoto-shrink_800_800/0/1688728289525?e=1710374400&v=beta&t=QWqW6XBwaTd-bfe6QTpFxLV6gy7Gqju5968xVXbFnrs" alt="PFP">
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <img width="30" height="30" src="https://img.icons8.com/badges/48/linkedin.png" alt="linkedin"/>
+                                        <a class="small text-white stretched-link" href="https://www.linkedin.com/in/lauren-gorst-71090b282/" target="_blank">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card bg-danger text-white mb-4">
+                                    <div class="card-body"><b>Taslima Hossain</b><br>Data Engineer</div>
+                                    <img src="https://media.licdn.com/dms/image/D4D03AQHfYPUn6Kn76g/profile-displayphoto-shrink_800_800/0/1692108530813?e=1710374400&v=beta&t=yaXOEn78D9XaUOe-nRok3VLyQzVkyzWcwn0lHCY4MZE" alt="PFP">
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <img width="30" height="30" src="https://img.icons8.com/badges/48/linkedin.png" alt="linkedin"/>
+                                        <a class="small text-white stretched-link" href="https://www.linkedin.com/in/taslima-h-a1518a97/" target="_blank">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </main>
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid px-4">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">Copyright &copy; Website 2024</div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>
