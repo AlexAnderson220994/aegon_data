@@ -12,24 +12,6 @@ RUN apt update && apt install -y git
 
 RUN git clone https://AlexAnderson220994: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@github.com/AlexAnderson220994/aegon_data.git .
 
-# Fetch the latest code from the repository
-RUN git -C /aegon_data pull --rebase
-
-
-# COPY --from=nginxinc/nginx-unprivileged:1.21.4-alpine /usr/share/nginx/html .
-
-# COPY index.html .
-# COPY jpynb_report_final.html .
-# COPY jpynb_report.html .
-# COPY LICENSE .
-# COPY ML_jpynb.html .
-# COPY package-lock.json .
-# COPY package.json .
-# COPY peterpfp.jpg .
-# COPY scripts.js .
-# COPY styles.css .
-# COPY ERD_insurance_claims.png .
-
 # Expose port 80 to the outside world
 EXPOSE 80
 
