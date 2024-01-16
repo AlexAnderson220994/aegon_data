@@ -8158,7 +8158,7 @@ textarea.form-control-lg {
 
 .bg-info {
   --bs-bg-opacity: 1;
-  background-color: #F5CECE;
+  background-color: #FAC898;
 }
 
 .bg-warning {
@@ -8168,7 +8168,12 @@ textarea.form-control-lg {
 
 .bg-danger {
   --bs-bg-opacity: 1;
-  background-color: #1F2C8F;
+  background-color: #C8A2C8;
+}
+
+.bg-jack {
+  --bs-bg-opacity: 1;
+  background-color: #F5CECE;
 }
 
 .bg-light {
